@@ -1,0 +1,48 @@
+{
+  "name": "webpack-base",
+  "version": "1.0.0",
+  "description": "Base webpack config",
+  "main": "src/js/index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack -d",
+    "serve": "webpack-dev-server -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HPZK97/webpack-base.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack config",
+    "webpack base",
+    "hot module replacement",
+    "hmr",
+    "hot reload"
+  ],
+  "author": "HPZK97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HPZK97/webpack-base/issues"
+  },
+  "homepage": "https://github.com/HPZK97/webpack-base#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "autoprefixer": "^10.0.1",
+    "babel-minify": "^0.5.1",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "css-loader": "^4.3.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.1.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "postcss": "^8.1.1",
+    "postcss-loader": "^4.0.2",
+    "postcss-sort-media-queries": "^2.1.9",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
